@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="encabezado">
+        <img src="img/Alura2.png" alt="Logo Alura" class="logo" id="Img">
+    </header>
+
+    <main class="contenedorEntradaSalida">
+        <div class="container">
+            <div class="formulario neomorfismo">
+                <textarea id="entrada" name="entrada" class="entrada" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="botones">
+                    <button onclick="encriptar()" class="btn-encriptar">Encriptar</button>
+                    <button onclick="descifrar()" class="btn-desencriptar">Desencriptar</button>
+                </div>
+            </div>
+            <div class="resultado neomorfismo">
+                <textarea id="salida" name="salida" class="salida" placeholder="No se encuentra ningún resultado"></textarea>
+                <button class="copy" id="copiar" onclick="copyText()">Copiar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="piePagina">
+        <ul>
+            <li><a href="https://github.com/PedroLuis-ElLargo" target="_blank"><i class="bi bi-github"></i>Github</a></li>
+            <li><a href="https://www.linkedin.com/in/pedro-luis-valenzuela-1b176b259/" target="_blank"><i class="bi bi-linkedin"></i>Linkedin</a></li>
+            <li><a href="https://www.instagram.com/pedrovalenzuela112/" target="_blank"><i class="bi bi-instagram"></i>Instagram</a></li>
+        </ul>
+        <p>&copy; 2021 <span>Pedro Luis Valenzuela</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

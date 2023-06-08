@@ -1,0 +1,171 @@
+/* Estilos generales */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #000;
+}
+
+/* Encabezado */
+
+.encabezado {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2), -8px -8px 16px rgba(255, 255, 255, 0.2);
+}
+.logo{
+    width: 18vh;
+    height: 18vh;
+    border-radius: 50%;
+}
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+/* Contenedor principal */
+
+.contenedorEntradaSalida {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+/* Formulario de entrada */
+
+.formulario {
+    display: grid;
+    gap: 20px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2), -8px -8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.entrada {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    resize: vertical;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.btn-encriptar,
+.btn-desencriptar {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.botones .btn-encriptar {
+    background-color: #1a1aa1;
+    color: #ffffff;
+}
+.botones .btn-desencriptar {
+    background-color: #dad9d9;
+    color: #000000;
+}
+
+
+/* Formulario de salida */
+
+.resultado {
+    display: grid;
+    gap: 20px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2), -8px -8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.salida {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    resize: vertical;
+}
+
+.copy {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Pie de página */
+
+.piePagina {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2), -8px -8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.piePagina ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.piePagina li {
+    margin: 10px;
+}
+
+.piePagina a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.piePagina a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.piePagina span {
+    font-weight: bold;
+}
+
+/* Estilo Neomorfismo */
+
+.neomorfismo {
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2), -8px -8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.neomorfismo:hover {
+    box-shadow: inset 8px 8px 16px rgba(0, 0, 0, 0.2), inset -8px -8px 16px rgba(255, 255, 255, 0.2);
+}
