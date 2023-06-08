@@ -169,3 +169,19 @@ body {
 .neomorfismo:hover {
     box-shadow: inset 8px 8px 16px rgba(0, 0, 0, 0.2), inset -8px -8px 16px rgba(255, 255, 255, 0.2);
 }
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    
+    .logo{
+        width: 15vh;
+        height: 15vh;
+        border-radius: 50%;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    } 
+}
